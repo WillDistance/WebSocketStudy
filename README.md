@@ -12,3 +12,6 @@ java-websocket地址：https://github.com/TooTallNate/Java-WebSocket
 控制台通过输入房间号 和 连接id 将消息发送到客户端
  
 WsServer.onMessage() 接收客户端消息的方法为测试使用，需要根据业务需求修改方法实现
+
+#运行：
+webSocket.testMain.main()方法启动服务并测试
