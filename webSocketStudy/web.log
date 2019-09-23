@@ -1,0 +1,23 @@
+2019-09-23 19:58:41 [webSocket.server.WsServer]-[INFO] onStart:启动WebSocket服务，监听端口：8887
+2019-09-23 20:06:48 [webSocket.server.WsServer]-[INFO] onStart:启动WebSocket服务，监听端口：8887
+2019-09-23 20:06:57 [webSocket.server.WsServer]-[INFO] onOpen:客户端链接的时候调用
+2019-09-23 20:08:36 [webSocket.server.WsServer]-[INFO] onStart:启动WebSocket服务，监听端口：8887
+2019-09-23 20:08:40 [webSocket.server.WsServer]-[INFO] onOpen:客户端链接的时候调用
+2019-09-23 20:09:38 [webSocket.server.WsServer]-[INFO] onStart:启动WebSocket服务，监听端口：8887
+2019-09-23 20:09:41 [webSocket.server.WsServer]-[INFO] onOpen:客户端链接的时候调用
+2019-09-23 20:09:50 [webSocket.server.WsServer]-[INFO] onMessage接收客户端创建连接消息: online_room01_conn01,WebSocket:org.java_websocket.WebSocketImpl@32b0bad7
+2019-09-23 20:10:00 [webSocket.server.WsServer]-[INFO] onMessage接收客户端删除连接消息: offline_room01_conn01,WebSocket:org.java_websocket.WebSocketImpl@32b0bad7
+2019-09-23 20:10:00 [webSocket.server.WsServer]-[INFO] 断开连接
+2019-09-23 20:10:00 [webSocket.server.WsServer]-[ERROR] onError:出现异常时被调用
+org.java_websocket.exceptions.WebsocketNotConnectedException
+	at org.java_websocket.WebSocketImpl.send(WebSocketImpl.java:630)
+	at org.java_websocket.WebSocketImpl.sendFrame(WebSocketImpl.java:655)
+	at org.java_websocket.WebSocketImpl.sendPing(WebSocketImpl.java:662)
+	at webSocket.server.WsServer.onMessage(WsServer.java:147)
+	at org.java_websocket.server.WebSocketServer.onWebsocketMessage(WebSocketServer.java:642)
+	at org.java_websocket.drafts.Draft_6455.processFrameText(Draft_6455.java:858)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:792)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:381)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:218)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.doDecode(WebSocketServer.java:1011)
+	at org.java_websocket.server.WebSocketServer$WebSocketWorker.run(WebSocketServer.java:993)
